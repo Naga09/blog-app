@@ -1,0 +1,15 @@
+
+{
+  "name": "blog-app",
+  "version": "1.0.0",
+  "description": "Rest Api for blogs",
+  "main": "index.js",
+  "author": "raju",
+  "license": "ISC",
+    "dependencies": {
+    "body-parser": "^1.16.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.1",
+    "sqlite3": "^3.1.8"
+  }
+}
