@@ -30,6 +30,17 @@ function get_id() {
 
 
 
+
+// route to get all the blogs
+blogapp.get('/blogs', function(req, res){
+    db.all("SELECT * FROM blogs", function(err, rows){
+    	console.log(rows);
+        res.json(rows);
+    });
+});
+
+
+
 // routes to post a blog
 blogapp.post('/blog', function(req, res){
 	console.log(req.body);
